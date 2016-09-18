@@ -12,4 +12,4 @@ appear within the IntelliSense popup. Press enter or tab to insert the snippet.
 
 ## Installation
 1. Open the VS Code command palette `Ctrl`-`Shift`-`P` (Windows, Linux) or `Cmd`-`Shift`-`P` (OSX).
-2. Type `ext install Unity Snippets`.
+2. Type `ext install unity-snippets`.
