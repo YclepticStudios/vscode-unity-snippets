@@ -1,7 +1,7 @@
 {
     "name": "unity-snippets",
     "displayName": "Unity Snippets",
-    "publisher": "Ycleptic Studios",
+    "publisher": "YclepticStudios",
     "description": "Unity MonoBehaviour function snippets with documentation.",
     "version": "0.1.0",
     "engines": { "vscode": "0.10.x" },
