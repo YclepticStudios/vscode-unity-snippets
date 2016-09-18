@@ -1,0 +1,876 @@
+{
+	"MonoBehaviour Awake": {
+		"prefix": "Awake()",
+		"description": "Awake is called when the script instance is being loaded.",
+		"body": [
+			"/// <summary>",
+			"/// Awake is called when the script instance is being loaded.",
+			"/// </summary>",
+			"void Awake()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour FixedUpdate": {
+		"prefix": "FixedUpdate()",
+		"description": "This function is called every fixed framerate frame, if the MonoBehaviour is enabled.",
+		"body": [
+			"/// <summary>",
+			"/// This function is called every fixed framerate frame, if the MonoBehaviour is enabled.",
+			"/// </summary>",
+			"void FixedUpdate()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour LateUpdate": {
+		"prefix": "LateUpdate()",
+		"description": "LateUpdate is called every frame, if the Behaviour is enabled. It is called after all Update functions have been called.",
+		"body": [
+			"/// <summary>",
+			"/// LateUpdate is called every frame, if the Behaviour is enabled.",
+			"/// It is called after all Update functions have been called.",
+			"/// </summary>",
+			"void LateUpdate()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnAnimatorIK": {
+		"prefix": "OnAnimatorIK(int)",
+		"description": "Callback for setting up animation IK (inverse kinematics).",
+		"body": [
+			"/// <summary>",
+			"/// Callback for setting up animation IK (inverse kinematics).",
+			"/// </summary>",
+			"/// <param name=\"layerIndex\">Index of the layer on which the IK solver is called.</param>",
+			"void OnAnimatorIK(int layerIndex)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnAnimatorMove": {
+		"prefix": "OnAnimatorMove()",
+		"description": "Callback for processing animation movements for modifying root motion.",
+		"body": [
+			"/// <summary>",
+			"/// Callback for processing animation movements for modifying root motion.",
+			"/// </summary>",
+			"void OnAnimatorMove()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnApplicationFocus": {
+		"prefix": "OnApplicationFocus(bool)",
+		"description": "Callback sent to all game objects when the player gets or loses focus.",
+		"body": [
+			"/// <summary>",
+			"/// Callback sent to all game objects when the player gets or loses focus.",
+			"/// </summary>",
+			"/// <param name=\"focusStatus\">The focus state of the application.</param>",
+			"void OnApplicationFocus(bool focusStatus)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnApplicationPause": {
+		"prefix": "OnApplicationPause(bool)",
+		"description": "Callback sent to all game objects when the player pauses.",
+		"body": [
+			"/// <summary>",
+			"/// Callback sent to all game objects when the player pauses.",
+			"/// </summary>",
+			"/// <param name=\"pauseStatus\">The pause state of the application.</param>",
+			"void OnApplicationPause(bool pauseStatus)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnApplicationQuit": {
+		"prefix": "OnApplicationQuit()",
+		"description": "Callback sent to all game objects before the application is quit.",
+		"body": [
+			"/// <summary>",
+			"/// Callback sent to all game objects before the application is quit.",
+			"/// </summary>",
+			"void OnApplicationQuit()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnAudioFilterRead": {
+		"prefix": "OnAudioFilterRead(float[], int)",
+		"description": "If OnAudioFilterRead is implemented, Unity will insert a custom filter into the audio DSP chain.",
+		"body": [
+			"/// <summary>",
+			"/// If OnAudioFilterRead is implemented, Unity will insert a custom filter into the",
+			"/// audio DSP chain.",
+			"/// </summary>",
+			"/// <param name=\"data\">An array of floats comprising the audio data.</param>",
+			"/// <param name=\"channels\">An int that stores the number of channels",
+			"///                        of audio data passed to this delegate.</param>",
+			"void OnAudioFilterRead(float[] data, int channels)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnBecameInvisible": {
+		"prefix": "OnBecameInvisible()",
+		"description": "OnBecameInvisible is called when the renderer is no longer visible by any camera.",
+		"body": [
+			"/// <summary>",
+			"/// OnBecameInvisible is called when the renderer is no longer visible by any camera.",
+			"/// </summary>",
+			"void OnBecameInvisible()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnBecameVisible": {
+		"prefix": "OnBecameVisible()",
+		"description": "OnBecameVisible is called when the renderer became visible by any camera.",
+		"body": [
+			"/// <summary>",
+			"/// OnBecameVisible is called when the renderer became visible by any camera.",
+			"/// </summary>",
+			"void OnBecameVisible()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnCollisionEnter": {
+		"prefix": "OnCollisionEnter(Collision)",
+		"description": "OnCollisionEnter is called when this collider/rigidbody has begun\n touching another rigidbody/collider.",
+		"body": [
+			"/// <summary>",
+			"/// OnCollisionEnter is called when this collider/rigidbody has begun",
+			"/// touching another rigidbody/collider.",
+			"/// </summary>",
+			"/// <param name=\"other\">The Collision data associated with this collision.</param>",
+			"void OnCollisionEnter(Collision other)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnCollisionEnter2D": {
+		"prefix": "OnCollisionEnter2D(Collision2D)",
+		"description": "Sent when an incoming collider makes contact with this object's collider (2D physics only).",
+		"body": [
+			"/// <summary>",
+			"/// Sent when an incoming collider makes contact with this object's",
+			"/// collider (2D physics only).",
+			"/// </summary>",
+			"/// <param name=\"other\">The Collision2D data associated with this collision.</param>",
+			"void OnCollisionEnter2D(Collision2D other)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnCollisionExit": {
+		"prefix": "OnCollisionExit(Collision)",
+		"description": "OnCollisionExit is called when this collider/rigidbody has stopped touching another rigidbody/collider.",
+		"body": [
+			"/// <summary>",
+			"/// OnCollisionExit is called when this collider/rigidbody has",
+			"/// stopped touching another rigidbody/collider.",
+			"/// </summary>",
+			"/// <param name=\"other\">The Collision data associated with this collision.</param>",
+			"void OnCollisionExit(Collision other)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnCollisionExit2D": {
+		"prefix": "OnCollisionExit2D(Collision2D)",
+		"description": "Sent when a collider on another object stops touching this object's collider (2D physics only).",
+		"body": [
+			"/// <summary>",
+			"/// Sent when a collider on another object stops touching this",
+			"/// object's collider (2D physics only).",
+			"/// </summary>",
+			"/// <param name=\"other\">The Collision2D data associated with this collision.</param>",
+			"void OnCollisionExit2D(Collision2D other)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnCollisionStay": {
+		"prefix": "OnCollisionStay(Collision)",
+		"description": "OnCollisionStay is called once per frame for every collider/rigidbody that is touching rigidbody/collider.",
+		"body": [
+			"/// <summary>",
+			"/// OnCollisionStay is called once per frame for every collider/rigidbody",
+			"/// that is touching rigidbody/collider.",
+			"/// </summary>",
+			"/// <param name=\"other\">The Collision data associated with this collision.</param>",
+			"void OnCollisionStay(Collision other)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnCollisionStay2D": {
+		"prefix": "OnCollisionStay2D(Collision2D)",
+		"description": "Sent each frame where a collider on another object is touching this object's collider (2D physics only).",
+		"body": [
+			"/// <summary>",
+			"/// Sent each frame where a collider on another object is touching",
+			"/// this object's collider (2D physics only).",
+			"/// </summary>",
+			"/// <param name=\"other\">The Collision2D data associated with this collision.</param>",
+			"void OnCollisionStay2D(Collision2D other)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnConnectedToServer": {
+		"prefix": "OnConnectedToServer()",
+		"description": "Called on the client when you have successfully connected to a server.",
+		"body": [
+			"/// <summary>",
+			"/// Called on the client when you have successfully connected to a server.",
+			"/// </summary>",
+			"void OnConnectedToServer()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnControllerColliderHit": {
+		"prefix": "OnControllerColliderHit(ControllerColliderHit)",
+		"description": "OnControllerColliderHit is called when the controller hits a collider while performing a Move.",
+		"body": [
+			"/// <summary>",
+			"/// OnControllerColliderHit is called when the controller hits a",
+			"/// collider while performing a Move.",
+			"/// </summary>",
+			"/// <param name=\"hit\">The ControllerColliderHit data associated with this collision.</param>",
+			"void OnControllerColliderHit(ControllerColliderHit hit)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnDestroy": {
+		"prefix": "OnDestroy()",
+		"description": "This function is called when the MonoBehaviour will be destroyed.",
+		"body": [
+			"/// <summary>",
+			"/// This function is called when the MonoBehaviour will be destroyed.",
+			"/// </summary>",
+			"void OnDestroy()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnDisable": {
+		"prefix": "OnDisable()",
+		"description": "This function is called when the behaviour becomes disabled or inactive.",
+		"body": [
+			"/// <summary>",
+			"/// This function is called when the behaviour becomes disabled or inactive.",
+			"/// </summary>",
+			"void OnDisable()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnDisconnectedFromServer": {
+		"prefix": "OnDisconnectedFromServer(NetworkDisconnection)",
+		"description": "Called on the client when the connection was lost or you disconnected from the server.",
+		"body": [
+			"/// <summary>",
+			"/// Called on the client when the connection was lost or you disconnected from the server.",
+			"/// </summary>",
+			"/// <param name=\"info\">NetworkDisconnection data associated with this disconnect.</param>",
+			"void OnDisconnectedFromServer(NetworkDisconnection info)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnDrawGizmos": {
+		"prefix": "OnDrawGizmos()",
+		"description": "Callback to draw gizmos that are pickable and always drawn.",
+		"body": [
+			"/// <summary>",
+			"/// Callback to draw gizmos that are pickable and always drawn.",
+			"/// </summary>",
+			"void OnDrawGizmos()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnDrawGizmosSelected": {
+		"prefix": "OnDrawGizmosSelected()",
+		"description": "Callback to draw gizmos only if the object is selected.",
+		"body": [
+			"/// <summary>",
+			"/// Callback to draw gizmos only if the object is selected.",
+			"/// </summary>",
+			"void OnDrawGizmosSelected()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnEnable": {
+		"prefix": "OnEnable()",
+		"description": "This function is called when the object becomes enabled and active.",
+		"body": [
+			"/// <summary>",
+			"/// This function is called when the object becomes enabled and active.",
+			"/// </summary>",
+			"void OnEnable()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnFailedToConnect": {
+		"prefix": "OnFailedToConnect(NetworkConnectionError)",
+		"description": "Called on the client when a connection attempt fails for some reason.",
+		"body": [
+			"/// <summary>",
+			"/// Called on the client when a connection attempt fails for some reason.",
+			"/// </summary>",
+			"/// <param name=\"error\">NetworkConnectionError data associated with this error.</param>",
+			"void OnFailedToConnect(NetworkConnectionError error)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnFailedToConnectToMasterServer": {
+		"prefix": "OnFailedToConnectToMasterServer(NetworkConnectionError)",
+		"description": "Called on clients or servers when there is a problem connecting to the MasterServer.",
+		"body": [
+			"/// <summary>",
+			"/// Called on clients or servers when there is a problem connecting to the MasterServer.",
+			"/// </summary>",
+			"/// <param name=\"error\">NetworkConnectionError data associated with this error.</param>",
+			"void OnFailedToConnectToMasterServer(NetworkConnectionError error)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnGUI": {
+		"prefix": "OnGUI()",
+		"description": "OnGUI is called for rendering and handling GUI events.",
+		"body": [
+			"/// <summary>",
+			"/// OnGUI is called for rendering and handling GUI events.",
+			"/// This function can be called multiple times per frame (one call per event).",
+			"/// </summary>",
+			"void OnGUI()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnJointBreak": {
+		"prefix": "OnJointBreak(float)",
+		"description": "Called when a joint attached to the same game object broke.",
+		"body": [
+			"/// <summary>",
+			"/// Called when a joint attached to the same game object broke.",
+			"/// </summary>",
+			"/// <param name=\"breakForce\">The force applied to the joint.</param>",
+			"void OnJointBreak(float breakForce)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnJointBreak2D": {
+		"prefix": "OnJointBreak2D(Joint2D)",
+		"description": "Called when a Joint2D attached to the same game object breaks.",
+		"body": [
+			"/// <summary>",
+			"/// Called when a Joint2D attached to the same game object breaks.",
+			"/// </summary>",
+			"/// <param name=\"brokenJoint\">The Joint2D which was broken.</param>",
+			"void OnJointBreak2D(Joint2D brokenJoint)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnMasterServerEvent": {
+		"prefix": "OnMasterServerEvent(MasterServerEvent)",
+		"description": "Called on clients or servers when reporting events from the MasterServer.",
+		"body": [
+			"/// <summary>",
+			"/// Called on clients or servers when reporting events from the MasterServer.",
+			"/// </summary>",
+			"/// <param name=\"msEvent\">The MasterServerEvent which ocurred.</param>",
+			"void OnMasterServerEvent(MasterServerEvent msEvent)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnMouseDown": {
+		"prefix": "OnMouseDown()",
+		"description": "OnMouseDown is called when the user has pressed the mouse button while over the GUIElement or Collider.",
+		"body": [
+			"/// <summary>",
+			"/// OnMouseDown is called when the user has pressed the mouse button while",
+			"/// over the GUIElement or Collider.",
+			"/// </summary>",
+			"void OnMouseDown()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnMouseDrag": {
+		"prefix": "OnMouseDrag()",
+		"description": "OnMouseDrag is called when the user has clicked on a GUIElement or Collider and is still holding down the mouse.",
+		"body": [
+			"/// <summary>",
+			"/// OnMouseDrag is called when the user has clicked on a GUIElement or Collider",
+			"/// and is still holding down the mouse.",
+			"/// </summary>",
+			"void OnMouseDrag()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnMouseEnter": {
+		"prefix": "OnMouseEnter()",
+		"description": "Called when the mouse enters the GUIElement or Collider.",
+		"body": [
+			"/// <summary>",
+			"/// Called when the mouse enters the GUIElement or Collider.",
+			"/// </summary>",
+			"void OnMouseEnter()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnMouseExit": {
+		"prefix": "OnMouseExit()",
+		"description": "Called when the mouse is not any longer over the GUIElement or Collider.",
+		"body": [
+			"/// <summary>",
+			"/// Called when the mouse is not any longer over the GUIElement or Collider.",
+			"/// </summary>",
+			"void OnMouseExit()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnMouseOver": {
+		"prefix": "OnMouseOver()",
+		"description": "Called every frame while the mouse is over the GUIElement or Collider.",
+		"body": [
+			"/// <summary>",
+			"/// Called every frame while the mouse is over the GUIElement or Collider.",
+			"/// </summary>",
+			"void OnMouseOver()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnMouseUp": {
+		"prefix": "OnMouseUp()",
+		"description": "OnMouseUp is called when the user has released the mouse button.",
+		"body": [
+			"/// <summary>",
+			"/// OnMouseUp is called when the user has released the mouse button.",
+			"/// </summary>",
+			"void OnMouseUp()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnMouseUpAsButton": {
+		"prefix": "OnMouseUpAsButton()",
+		"description": "OnMouseUpAsButton is only called when the mouse is released over the same GUIElement or Collider as it was pressed.",
+		"body": [
+			"/// <summary>",
+			"/// OnMouseUpAsButton is only called when the mouse is released over",
+			"/// the same GUIElement or Collider as it was pressed.",
+			"/// </summary>",
+			"void OnMouseUpAsButton()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnNetworkInstantiate": {
+		"prefix": "OnNetworkInstantiate(NetworkMessageInfo)",
+		"description": "Called on objects which have been network instantiated with Network.Instantiate.",
+		"body": [
+			"/// <summary>",
+			"/// Called on objects which have been network instantiated with Network.Instantiate.",
+			"/// </summary>",
+			"/// <param name=\"info\">The NetworkMessageInfo for the event.</param>",
+			"void OnNetworkInstantiate(NetworkMessageInfo info)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnParticleCollision": {
+		"prefix": "OnParticleCollision(GameObject)",
+		"description": "OnParticleCollision is called when a particle hits a collider.",
+		"body": [
+			"/// <summary>",
+			"/// OnParticleCollision is called when a particle hits a collider.",
+			"/// </summary>",
+			"/// <param name=\"other\">The GameObject hit by the particle.</param>",
+			"void OnParticleCollision(GameObject other)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnParticleTrigger": {
+		"prefix": "OnParticleTrigger(GameObject)",
+		"description": "OnParticleTrigger is called when any particles in a particle system meet the conditions in the trigger module.",
+		"body": [
+			"/// <summary>",
+			"/// OnParticleTrigger is called when any particles in a particle system",
+			"/// meet the conditions in the trigger module.",
+			"/// </summary>",
+			"/// <param name=\"other\">The GameObject hit by the particle.</param>",
+			"void OnParticleTrigger(GameObject other)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnPlayerConnected": {
+		"prefix": "OnPlayerConnected(NetworkPlayer)",
+		"description": "Called on the server whenever a new player has successfully connected.",
+		"body": [
+			"/// <summary>",
+			"/// Called on the server whenever a new player has successfully connected.",
+			"/// </summary>",
+			"/// <param name=\"player\">The NetworkPlayer which just connected.</param>",
+			"void OnPlayerConnected(NetworkPlayer player)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnPlayerDisconnected": {
+		"prefix": "OnPlayerDisconnected(NetworkPlayer)",
+		"description": "Called on the server whenever a player disconnected from the server.",
+		"body": [
+			"/// <summary>",
+			"/// Called on the server whenever a player disconnected from the server.",
+			"/// </summary>",
+			"/// <param name=\"player\">The NetworkPlayer which just disconnected.</param>",
+			"void OnPlayerDisconnected(NetworkPlayer player)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnPostRender": {
+		"prefix": "OnPostRender()",
+		"description": "OnPostRender is called after a camera finishes rendering the scene.",
+		"body": [
+			"/// <summary>",
+			"/// OnPostRender is called after a camera finishes rendering the scene.",
+			"/// </summary>",
+			"void OnPostRender()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnPreCull": {
+		"prefix": "OnPreCull()",
+		"description": "OnPreCull is called before a camera culls the scene.",
+		"body": [
+			"/// <summary>",
+			"/// OnPreCull is called before a camera culls the scene.",
+			"/// </summary>",
+			"void OnPreCull()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnPreRender": {
+		"prefix": "OnPreRender()",
+		"description": "OnPreRender is called before a camera starts rendering the scene.",
+		"body": [
+			"/// <summary>",
+			"/// OnPreRender is called before a camera starts rendering the scene.",
+			"/// </summary>",
+			"void OnPreRender()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnRenderImage": {
+		"prefix": "OnRenderImage(RenderTexture, RenderTexture)",
+		"description": "OnRenderImage is called after all rendering is complete to render image.",
+		"body": [
+			"/// <summary>",
+			"/// OnRenderImage is called after all rendering is complete to render image.",
+			"/// </summary>",
+			"/// <param name=\"src\">The source RenderTexture.</param>",
+			"/// <param name=\"dest\">The destination RenderTexture.</param>",
+			"void OnRenderImage(RenderTexture src, RenderTexture dest)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnRenderObject": {
+		"prefix": "OnRenderObject()",
+		"description": "OnRenderObject is called after camera has rendered the scene.",
+		"body": [
+			"/// <summary>",
+			"/// OnRenderObject is called after camera has rendered the scene.",
+			"/// </summary>",
+			"void OnRenderObject()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnSerializeNetworkView": {
+		"prefix": "OnSerializeNetworkView(BitStream, NetworkMessageInfo)",
+		"description": "Used to customize synchronization of variables in a script watched by a network view.",
+		"body": [
+			"/// <summary>",
+			"/// Used to customize synchronization of variables in a script watched by a network view.",
+			"/// </summary>",
+			"/// <param name=\"stream\">The network bit stream.</param>",
+			"/// <param name=\"info\">The network message information.</param>",
+			"void OnSerializeNetworkView(BitStream stream, NetworkMessageInfo info)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnServerInitialized": {
+		"prefix": "OnServerInitialized()",
+		"description": "Called on the server whenever a Network.InitializeServer was invoked and has completed.",
+		"body": [
+			"/// <summary>",
+			"/// Called on the server whenever a Network.InitializeServer was invoked and has completed.",
+			"/// </summary>",
+			"void OnServerInitialized()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnTransformChildrenChanged": {
+		"prefix": "OnTransformChildrenChanged()",
+		"description": "Called when the list of children of the transform of the GameObject has changed.",
+		"body": [
+			"/// <summary>",
+			"/// Called when the list of children of the transform of the GameObject has changed.",
+			"/// </summary>",
+			"void OnTransformChildrenChanged()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnTransformParentChanged": {
+		"prefix": "OnTransformParentChanged()",
+		"description": "Called when the parent property of the transform of the GameObject has changed.",
+		"body": [
+			"/// <summary>",
+			"/// Called when the parent property of the transform of the GameObject has changed.",
+			"/// </summary>",
+			"void OnTransformParentChanged()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnTriggerEnter": {
+		"prefix": "OnTriggerEnter(Collider)",
+		"description": "OnTriggerEnter is called when the Collider other enters the trigger.",
+		"body": [
+			"/// <summary>",
+			"/// OnTriggerEnter is called when the Collider other enters the trigger.",
+			"/// </summary>",
+			"/// <param name=\"other\">The other Collider involved in this collision.</param>",
+			"void OnTriggerEnter(Collider other)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnTriggerEnter2D": {
+		"prefix": "OnTriggerEnter2D(Collider)",
+		"description": "Sent when another object enters a trigger collider attached to this object (2D physics only).",
+		"body": [
+			"/// <summary>",
+			"/// Sent when another object enters a trigger collider attached to this",
+			"/// object (2D physics only).",
+			"/// </summary>",
+			"/// <param name=\"other\">The other Collider2D involved in this collision.</param>",
+			"void OnTriggerEnter2D(Collider other)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnTriggerExit": {
+		"prefix": "OnTriggerExit(Collider)",
+		"description": "OnTriggerExit is called when the Collider other has stopped touching the trigger.",
+		"body": [
+			"/// <summary>",
+			"/// OnTriggerExit is called when the Collider other has stopped touching the trigger.",
+			"/// </summary>",
+			"/// <param name=\"other\">The other Collider involved in this collision.</param>",
+			"void OnTriggerExit(Collider other)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnTriggerExit2D": {
+		"prefix": "OnTriggerExit2D(Collider2D)",
+		"description": "Sent when another object leaves a trigger collider attached to this object (2D physics only).",
+		"body": [
+			"/// <summary>",
+			"/// Sent when another object leaves a trigger collider attached to",
+			"/// this object (2D physics only).",
+			"/// </summary>",
+			"/// <param name=\"other\">The other Collider2D involved in this collision.</param>",
+			"void OnTriggerExit2D(Collider2D other)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnTriggerStay": {
+		"prefix": "OnTriggerStay(Collider)",
+		"description": "OnTriggerStay is called once per frame for every Collider other that is touching the trigger.",
+		"body": [
+			"/// <summary>",
+			"/// OnTriggerStay is called once per frame for every Collider other",
+			"/// that is touching the trigger.",
+			"/// </summary>",
+			"/// <param name=\"other\">The other Collider involved in this collision.</param>",
+			"void OnTriggerStay(Collider other)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnTriggerStay2D": {
+		"prefix": "OnTriggerStay2D(Collider2D)",
+		"description": "Sent each frame where another object is within a trigger collider attached to this object (2D physics only).",
+		"body": [
+			"/// <summary>",
+			"/// Sent each frame where another object is within a trigger collider",
+			"/// attached to this object (2D physics only).",
+			"/// </summary>",
+			"/// <param name=\"other\">The other Collider2D involved in this collision.</param>",
+			"void OnTriggerStay2D(Collider2D other)",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnValidate": {
+		"prefix": "OnValidate()",
+		"description": "Called when the script is loaded or a value is changed in the inspector (Called in the editor only).",
+		"body": [
+			"/// <summary>",
+			"/// Called when the script is loaded or a value is changed in the",
+			"/// inspector (Called in the editor only).",
+			"/// </summary>",
+			"void OnValidate()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour OnWillRenderObject": {
+		"prefix": "OnWillRenderObject()",
+		"description": "OnWillRenderObject is called for each camera if the object is visible.",
+		"body": [
+			"/// <summary>",
+			"/// OnWillRenderObject is called for each camera if the object is visible.",
+			"/// </summary>",
+			"void OnWillRenderObject()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour Reset": {
+		"prefix": "Reset()",
+		"description": "Reset is called when the user hits the Reset button in the Inspector's context menu or when adding the component the first time.",
+		"body": [
+			"/// <summary>",
+			"/// Reset is called when the user hits the Reset button in the Inspector's",
+			"/// context menu or when adding the component the first time.",
+			"/// </summary>",
+			"void Reset()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour Start": {
+		"prefix": "Start()",
+		"description": "Start is called on the frame when a script is enabled just before any of the Update methods is called the first time.",
+		"body": [
+			"/// <summary>",
+			"/// Start is called on the frame when a script is enabled just before",
+			"/// any of the Update methods is called the first time.",
+			"/// </summary>",
+			"void Start()",
+			"{",
+			"    $1",
+			"}"
+		]
+	},
+	"MonoBehaviour Update": {
+		"prefix": "Update()",
+		"description": "Update is called every frame, if the MonoBehaviour is enabled.",
+		"body": [
+			"/// <summary>",
+			"/// Update is called every frame, if the MonoBehaviour is enabled.",
+			"/// </summary>",
+			"void Update()",
+			"{",
+			"    $1",
+			"}"
+		]
+	}
+}

@@ -1,0 +1,31 @@
+{
+    "name": "unity-snippets",
+    "displayName": "Unity Snippets",
+    "publisher": "Ycleptic Studios",
+    "description": "Unity MonoBehaviour function snippets with documentation.",
+    "version": "0.1.0",
+    "engines": { "vscode": "0.10.x" },
+    "categories": ["Snippets"],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "csharp",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    },
+    "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "#046380",
+        "theme": "dark"
+    },
+    "license": "SEE LICENSE IN LICENSE.md",
+	"bugs": {
+		"url": "https://github.com/YclepticStudios/vscode-unity-snippets/issues"
+	},
+	"homepage": "https://github.com/YclepticStudios/vscode-unity-snippets/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/YclepticStudios/vscode-unity-snippets.git"
+	}
+}
