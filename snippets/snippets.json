@@ -554,15 +554,14 @@
 		]
 	},
 	"MonoBehaviour OnParticleTrigger": {
-		"prefix": "OnParticleTrigger(GameObject)",
+		"prefix": "OnParticleTrigger()",
 		"description": "OnParticleTrigger is called when any particles in a particle system meet the conditions in the trigger module.",
 		"body": [
 			"/// <summary>",
 			"/// OnParticleTrigger is called when any particles in a particle system",
 			"/// meet the conditions in the trigger module.",
 			"/// </summary>",
-			"/// <param name=\"other\">The GameObject hit by the particle.</param>",
-			"void OnParticleTrigger(GameObject other)",
+			"void OnParticleTrigger()",
 			"{",
 			"    $1",
 			"}"
@@ -732,7 +731,7 @@
 		]
 	},
 	"MonoBehaviour OnTriggerEnter2D": {
-		"prefix": "OnTriggerEnter2D(Collider)",
+		"prefix": "OnTriggerEnter2D(Collider2D)",
 		"description": "Sent when another object enters a trigger collider attached to this object (2D physics only).",
 		"body": [
 			"/// <summary>",
@@ -740,7 +739,7 @@
 			"/// object (2D physics only).",
 			"/// </summary>",
 			"/// <param name=\"other\">The other Collider2D involved in this collision.</param>",
-			"void OnTriggerEnter2D(Collider other)",
+			"void OnTriggerEnter2D(Collider2D other)",
 			"{",
 			"    $1",
 			"}"
