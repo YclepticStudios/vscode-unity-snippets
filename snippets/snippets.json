@@ -871,5 +871,54 @@
 			"    $1",
 			"}"
 		]
+	},
+	
+	
+	"MonoBehaviour position": {
+		"prefix": "position",
+		"description": "Defines the position",
+		"body":[
+			"position"
+		]
+	},
+
+	"MonoBehaviour Mathf": {
+		"prefix": "Mathf",
+		"description": "A collection of common math functions.",
+		"body":[
+			"Mathf"
+		]
+	},
+
+	"MonoBehaviour Clamp": {
+		"prefix": "Clamp",
+		"description": "Clamps a value between a minimum float and maximum float value.",
+		"body":[
+			"Clamp ($1value, $2min, $3max)"
+		]
+	},
+
+		"MonoBehaviour rotation": {
+		"prefix": "rotation",
+		"description": "Defines the rotation.",
+		"body":[
+			"rotation"
+		]
+	},
+
+		"MonoBehaviour Quaternion": {
+		"prefix": "Quaternion",
+		"description": "Quaternions are used to represent rotations.",
+		"body":[
+			"Quaternion"
+		]
+	},
+
+		"MonoBehaviour Euler": {
+		"prefix": "Euler",
+		"description": "Returns a rotation that rotates z degrees around the z axis, x degrees around the x axis, and y degrees around the y axis (in that order).",
+		"body":[
+			"Euler($1x, $2y, $3z);"
+		]
 	}
 }
